@@ -5,7 +5,9 @@
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" type="image/jpg" href="./images/favicon.jpg"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="stylesheets/styles.css">
 </head>
@@ -17,22 +19,25 @@
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
+    <a href="#projects" class="w3-bar-item w3-button w3-hide-small">CURRENT PROJECTS</a>
+    <a href="#featured" class="w3-bar-item w3-button w3-hide-small">FEATURED VIDEO</a>
+    <a href="#gallery" class="w3-bar-item w3-button w3-hide-small">GALLERY</a>
+    <a href="#calendar" class="w3-bar-item w3-button w3-hide-small">CALENDAR</a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#biography" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> BIOGRAPHY</a>
-    <a href="#featured" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> FEATURED VIDEO</a>
-    <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CURRENT PROJECTS</a>
     <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a> -->
   </div>
 
   <!-- Navbar on small screens -->
+  <!-- 
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#calendar" class="w3-bar-item w3-button" onclick="toggleFunction()">CALENDAR</a>
     <a href="#biography" class="w3-bar-item w3-button" onclick="toggleFunction()">BIOGRAPHY</a>
     <a href="#featured" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">CURRENT PROJECTS</a>
-    <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
   </div>
+   -->
 </div>
 
 
@@ -42,15 +47,44 @@
 <!-- TOP Image -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
+    
     <span class="w3-center w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity">RACHEL OSTLER</span>
+    
   </div>
 </div>
 
-<!-- Container (CALENDAR Section) -->
-<div class="w3-content w3-container w3-padding-64" id="biography">
-  <h3 class="w3-center">Upcoming Events</h3>
+<!-- CALENDAR Section -->
+<div id="calendar" style="background: lightgrey; margin-top:-10px; height:200px;">
+  <h3 class="w3-center">CALENDAR + UPCOMING EVENTS</h3>
+  
+    <!-- Calendar + Upcoming Events teaser (PLACEHOLDER) -->
+      
+
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="calendar">
+  <h3 class="w3-center">CALENDAR + UPCOMING EVENTS</h3>
   
       <!-- Calendar + Upcoming Events teaser (PLACEHOLDER) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 
@@ -59,13 +93,13 @@
 
 
 <!-- GALLERY Section Image -->
-<div class="bgimg-2 w3-display-container w3-opacity-min" id="home">
+<div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle" style="white-space:nowrap;">
   </div>
 </div>
 
 <!-- Container (GALLERY Section) -->
-<div class="w3-content w3-container w3-padding-64" id="biography">
+<div class="w3-content w3-container w3-padding-64" id="gallery">
   <h3 class="w3-center">GALLERY</h3>
 
   <!-- Gallery goes here -->
@@ -87,14 +121,16 @@
 
 <!-- FEATURED VIDEO Section -->
 <div class="w3-content w3-container w3-padding-64" id="featured">
-  <h3 class="w3-center">Featured Video</h3>
+  <h3 class="w3-center">FEATURED VIDEO</h3>
   <!-- <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p> --> <br>
+  <iframe class="w3-col m3" width="1200" height="700" src="https://www.youtube.com/embed/lrmR8TIVkcc" frameborder="0" allowfullscreen></iframe>
 
+  
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
       <!-- <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains"> -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lrmR8TIVkcc" frameborder="0" allowfullscreen></iframe>
+      <!-- <iframe src="https://www.youtube.com/embed/lrmR8TIVkcc" frameborder="0" allowfullscreen></iframe> -->
     </div>
 
    <!--  <div class="w3-col m3">
@@ -120,16 +156,15 @@
 
 <!-- BIOGRAPHY Section -->
 <div class="w3-content w3-container w3-padding-64" id="biography">
-  <h3 class="w3-center">BIOGRAPHY</h3>
-  <!-- 
+  <h3 class="w3-center">BIOGRAPHY</h3> 
   <p>24-year-old violinist, Rachel Ostler, has been recognized for her artistic interpretation, exuberant energy, and lyrical tone. She is the first prize winner of the Aspen Concerto Competition, American Youth Symphony Competition, the Culver City Young Artist Competition, and the Rio Hondo Competition, as well as a semi-finalist in the Schoenfeld International String Competition.</p>
-			<p>Rachel made her solo debut at age 12, performing the Vieuxtemps Violin Concerto No. 5 with the Coral Gables Orchestra as a special guest in the WLRN television series <em>American Ideal</em>. Since then, she has performed as a soloist with orchestras including the Aspen Conducting Academy Orchestra at the Aspen Music Festival, Rio Hondo Symphony, Utah Philharmonic, Brigham Young University Philharmonic and Chamber Orchestra, Ludwig Symphony Orchestra, and Alhambra Orchestra.</p> 
-			<p>As a young violinist, Rachel won prizes in numerous competitions including the Hollywood Young Artist, Collin County, Hubbard Young Artist, Lewisville and Ray Millette Competitions. After winning the junior division of the American String Teachers Association Competition, she was invited to perform the Beethoven Violin Concerto with the inaugural Classical Virtuosi of Miami festival, and toured China the following year with the Brigham Young University Chamber Orchestra, performing in major concert halls in Beijing, Shanghai, Tianjin, Hangzhou and Guangzhou.</p>
-			<p>Rachel has performed in masterclasses for internationally renowned violinists including Gil Shaham, Pinchas Zukerman, Joseph Silverstein, Pamela Frank, Anne Akiko-Meyers, and Baiba Skride. An avid chamber musician, she has had the privilege of collaborating with notable artists including Augustin Hadelich, James Dunham, and Charles Weatherbee. Rachel has been a fellow at the Aspen Music Festival and School, and has attended the Lucerne Festival Academy, the Sarasota Music Festival, and the European American Musical Alliance.</p>
-			<p>Born in Austin, Texas and raised in Miami, Florida, Rachel began violin lessons at age two and a half. Her early training saw a variety of teachers including Sachiko Mori and Thomas Moore. At age 16, she began attending Brigham Young University, studying with Monte Belknap and minoring in English Literature.</p>
-			<p>Rachel has recently received her Master of Music degree from the Colburn Conservatory, where she studied under Robert Lipsett, the Jascha Heifetz Distinguished Violin Chair. 
-			In Fall 2016, Rachel begins postgraduate studies at Yale, studying with Ani Kavafian.</p>
-   -->
+	<p>Rachel made her solo debut at age 12, performing the Vieuxtemps Violin Concerto No. 5 with the Coral Gables Orchestra as a special guest in the WLRN television series <em>American Ideal</em>. Since then, she has performed as a soloist with orchestras including the Aspen Conducting Academy Orchestra at the Aspen Music Festival, Rio Hondo Symphony, Utah Philharmonic, Brigham Young University Philharmonic and Chamber Orchestra, Ludwig Symphony Orchestra, and Alhambra Orchestra.</p> 
+	<p>As a young violinist, Rachel won prizes in numerous competitions including the Hollywood Young Artist, Collin County, Hubbard Young Artist, Lewisville and Ray Millette Competitions. After winning the junior division of the American String Teachers Association Competition, she was invited to perform the Beethoven Violin Concerto with the inaugural Classical Virtuosi of Miami festival, and toured China the following year with the Brigham Young University Chamber Orchestra, performing in major concert halls in Beijing, Shanghai, Tianjin, Hangzhou, and Guangzhou.</p>
+	<p>Rachel has performed in masterclasses for internationally renowned violinists including Gil Shaham, Pinchas Zukerman, Joseph Silverstein, Pamela Frank, Anne Akiko-Meyers, and Baiba Skride. An avid chamber musician, she has had the privilege of collaborating with notable artists including Augustin Hadelich, James Dunham, and Charles Weatherbee. Rachel has been a fellow at the Aspen Music Festival and School, and has attended the Lucerne Festival Academy, the Sarasota Music Festival, and the European American Musical Alliance.</p>
+	<p>Born in Austin, Texas and raised in Miami, Florida, Rachel began violin lessons at age two and a half. Her early training saw a variety of teachers including Sachiko Mori and Thomas Moore. At age 16, she began attending Brigham Young University, studying with Monte Belknap and minoring in English Literature.</p>
+	<p>Rachel has recently received her Master of Music degree from the Colburn Conservatory, where she studied under Robert Lipsett, the Jascha Heifetz Distinguished Violin Chair. 
+	In Fall 2016, Rachel began postgraduate studies at Yale, studying with Ani Kavafian.</p>
+  
 
   <div class="w3-row">
    <!--  <div class="w3-col m6 w3-center w3-padding-large">
@@ -176,37 +211,14 @@
   </div>
 </div>
 
-<!-- Container (Contact Section) -->
+<!-- Container (CURRENT PROJECTS Section) -->
 <div class="w3-content w3-container w3-padding-64" id="projects">
   <h3 class="w3-center">CURRENT PROJECTS</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
+  
+  <!-- Current Projects Placeholder-->
 
   <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
-      </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
-    </div>
+    <!-- Current  -->
   </div>
 </div>
 
