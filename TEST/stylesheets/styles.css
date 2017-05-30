@@ -291,24 +291,31 @@ p {font-size: 16px;}
 	/*box-shadow: 0 1px 4px grey;*/
     padding: 1em 3em 1em 3em;
     background: lightgrey;
+    margin-bottom: 1em;
 }
 
 .event > p {
 	margin: 0px;
 }
 
+.headline, .date, .location, .piece, .details { display: block; font-size: 13px;}
+.details{
+	/*font-style: italic;*/
+	/*text-decoration: underline;*/
+}
 .headline{
-	display: block;
-	font-family: 'Raleway';
+	font-family: Times;
 	font-size: 1.5em;
 	color: #3F72AF;
 }
 
 .date{
-	display: block;
 	color: black;
 	font-weight: 800;
 	font-family: Times;
-
 }
 
+.piece{
+	/*text-decoration: underline;*/
+	font-style: italic;
+}
