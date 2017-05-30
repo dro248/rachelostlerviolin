@@ -292,7 +292,10 @@ p {font-size: 16px;}
     padding: 1em 3em 1em 3em;
     background: lightgrey;
     margin-bottom: 1em;
+    transition: background .25s;
 }
+
+.event:hover{background: #b1b0b0;}
 
 .event > p {
 	margin: 0px;
@@ -318,4 +321,8 @@ p {font-size: 16px;}
 .piece{
 	/*text-decoration: underline;*/
 	font-style: italic;
+}
+
+.gallery {
+	height: 150px;
 }
