@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rachel Ostler - Violin</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/jpg" href="./images/favicon.jpg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#projects" class="w3-bar-item w3-button w3-hide-small">CURRENT PROJECTS</a>
+    <a href="#biography" class="w3-bar-item w3-button w3-hide-small">BIOGRAPHY</a>
+    <a href="#featured" class="w3-bar-item w3-button w3-hide-small">FEATURED VIDEO</a>
+    <a href="#gallery" class="w3-bar-item w3-button w3-hide-small">GALLERY</a>
+    <a href="#calendar" class="w3-bar-item w3-button w3-hide-small">CONCERTS</a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a> -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <!-- 
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#calendar" class="w3-bar-item w3-button" onclick="toggleFunction()">CALENDAR</a>
+    <a href="#biography" class="w3-bar-item w3-button" onclick="toggleFunction()">BIOGRAPHY</a>
+    <a href="#featured" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">CURRENT PROJECTS</a>
+  </div>
+   -->
+</div>
+
+
+
+
+
+<!-- TOP Image -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    
+    <span class="w3-center w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity">RACHEL OSTLER</span>
+    
+  </div>
+</div>
+
+<!-- Comment1 Section -->
+<!-- 
+<div style="background: lightgrey; margin-top:-10px; height:200px;">
+  <h3 class="w3-center">Comment1</h3>
+
+</div>
+ -->
+
+<div id="calendar" class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">CONCERTS</h3>
+  
+      <!-- Calendar + Upcoming Events teaser (PLACEHOLDER) -->
+    <div class="event">
+      <span class="headline">Long Night of Chamber Music</span>
+      <span class="date">August 10, 2017, 7:00 pm</span>
+      <span class="location">Moritzburg, Church</span>
+    </div>
+    <div class="event">
+      <span class="headline">Proschwitz' Picnic with Live Music</span>
+      <span class="date">August 6, 2017 - 11:00 am</span>
+      <span class="location">Proschwitz, Proschwitz Castle Park</span>
+      <span class="piece">Dmitri Shostakovich: Sinfonie Nr. 9 E flat major op. 70</span>
+      <span class="details">Souvenir de Florence</span>
+    </div>
+    <div class="event">
+      <span class="headline">Opening Concert of the Moritzburg Festival</span>
+      <span class="date">August 5, 2017 - 7:30 pm</span>
+      <span class="location">Dresden, Die Gläserne Manufaktur von Volkswagen</span>
+      <span class="piece">Robert Schumann: "Ouvertüre, Scherzo und Finale" op. 52</span>
+      <span class="piece">W.A. Mozart: Sinfonia concertante E flat major KV 364 (320d)</span>
+      <span class="piece">Dmitri Shostakovich: Sinfonie Nr. 9 E flat major op. 70</span>
+    </div>
+    <div class="event">
+      <span class="headline">Ima Hogg Competition Semi-Final Round</span>
+      <span class="date">June 1st, 2017</span>
+      <span class="location">Rice University - Houston, Texas</span>
+      <span class="piece">Beethoven Violin Concerto in D Major, Op. 61</span>
+      <span class="piece">Barber Violin Concerto, Op. 14</span>
+    </div>
+    <div class="event">
+      <span class="headline">Evening of Concertos</span>
+      <span class="date">May 22nd, 2017</span>
+      <span class="location">Bushnell Auditorium - Hartford, Connecticut</span>
+      <span class="details">New Haven Symphony Orchestra, conducted by William Boughton</span>
+    </div>
+    <div class="event">
+      <span class="headline">Lunchtime Chamber Music Series</span>
+      <span class="date">May 8th, 2017</span>
+      <span class="location">Sprague Memorial Hall - New Haven, Connecticut</span>
+      <span class="details">Souvenir de Florence</span>
+    </div>
+    <div class="event">
+      <span class="headline">American Youth Symphony Gala Concert</span>
+      <span class="date">April 22nd, 2017</span>
+      <span class="location">Royce Hall - Los Angeles, California</span>
+      <span class="piece">Erich Wolfgang Korngold: Violin Concerto in D Major, Op. 35</span>
+      <span class="details">American Youth Symphony, conducted by Carlos Izcaray</span>
+    </div>
+    <div class="event">
+      <span class="headline">Master of Musical Arts Recital</span>
+      <span class="date">March 3rd, 2017</span>
+      <span class="location">Sprague Memorial Hall, Yale - New Haven, Connecticut</span>
+      <span class="piece">Max Reger, Prelude No. 2</span>
+      <span class="piece">Richard Strauss, Violin Sonata in E-flat Major, Op. 18</span>
+      <span class="piece">Bela Bartok, Rhapsody No. 1</span>
+      <span class="piece">Isaac Albeniz-Fritz Kreisler, Tango</span>
+      <span class="details">Ronaldo Rolim, pianist</span>
+    </div>
+    <div class="event">
+      <span class="headline">Celebration of Beethoven</span>
+      <span class="date">December 17th, 2016</span>
+      <span class="location">Veteran’s Memorial Theater - Culver City, California</span>
+      <span class="piece">Ludwig Van Beethoven: Violin Concerto in D Major, Op. 61</span>
+      <span class="details">Culver City Symphony, conducted by Andrew Shulman</span>
+    </div>
+    <div class="event">
+      <span class="headline">Princess Astrid Competition</span>
+      <span class="date">November 2016</span>
+      <span class="location">Trondheim, Norway</span>
+      <span class="piece">W.A. Mozart Sonata in e minor, K. 304</span>
+      <span class="piece">J.S. Bach, Andante and Allegro</span>
+    </div>
+    <div class="event">
+      <span class="headline">Vic Lopez Auditorium</span>
+      <span class="date">September 18, 2016</span>
+      <span class="location">Whittier, California</span>
+      <span class="piece">Henri Vieuxtemps: Violin Concerto No. 5 in a minor, Op. 37</span>
+      <span class="details">Rio Hondo Symphony, conducted by Kimo Furumoto</span>
+    </div>
+    <div class="event">
+      <span class="headline">Aspen Music Festival Concerto Competition Winner</span>
+      <span class="date">July 16th, 2016</span>
+      <span class="location">Benedict Music Tent - Aspen, Colorado</span>
+      <span class="piece">Igor Stravinsky: Violin Concerto in D</span>
+      <span class="details">Aspen Music Festival ACA Orchestra Conducted by Waisai Wilson Ng, John Lidfors, Patrick Hahn, and Ingmar Beck</span>
+    </div>
+</div>
+
+
+
+
+
+<!-- GALLERY Section Image -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+  </div>
+</div>
+
+<!-- Container (GALLERY Section) -->
+<div class="w3-content w3-container w3-padding-64" id="gallery">
+  <h3 class="w3-center">GALLERY</h3>
+
+	<!-- Gallery goes here -->
+	<!-- <div id="links"> -->
+	<div class="row">
+	    <a href="images/disney_hall_1.jpg"><img src="images/gallery/disney_hall_1.jpg" alt="headshot1" class="gallery"></a>
+		<a href="images/disney_hall_2.jpg"><img src="images/gallery/disney_hall_2.jpg" alt="headshot2" class="gallery"></a>
+		<a href="images/gallery1.JPG"><img src="images/gallery/gallery1.JPG" alt="headshot3" class="gallery"></a>
+		<a href="images/gallery2.JPG"><img src="images/gallery/gallery2.JPG" alt="headshot3" class="gallery"></a>
+		<a href="images/gallery3.JPG"><img src="images/gallery/gallery3.JPG" alt="headshot3" class="gallery"></a>
+		<a href="images/gallery4.JPG"><img src="images/gallery/gallery4.JPG" alt="headshot3" class="gallery"></a>
+		<a href="images/gallery5.JPG"><img src="images/gallery/gallery5.JPG" alt="headshot3" class="gallery"></a>
+		<a href="images/gallery6.JPG"><img src="images/gallery/gallery6.JPG" alt="headshot3" class="gallery"></a>
+		<a href="images/gallery7.JPG"><img src="images/gallery/gallery7.JPG" alt="headshot3" class="gallery"></a>
+		<!-- <a href="images/gallery8.JPG"><img src="images/gallery8.JPG" alt="headshot3" class="gallery"></a> -->
+		<a href="images/gallery9.JPG"><img src="images/gallery/gallery9.JPG" alt="headshot3" class="gallery"></a>
+		<a href="images/gallery10.png"><img src="images/gallery/gallery10.png" alt="headshot3" class="gallery"></a>
+		<a href="images/gallery11.png"><img src="images/gallery/gallery11.png" alt="headshot3" class="gallery"></a>
+		<!-- <a href="images/gallery12.JPG"><img src="images/gallery12.JPG" alt="headshot3" class="gallery"></a> -->
+		<a href="images/gallery13.JPG"><img src="images/gallery/gallery13.JPG" alt="headshot3" class="gallery"></a>
+
+
+	</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- FEATURED VIDEO Section Image -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    
+    <!--  -->
+
+  </div>
+</div>
+
+<!-- FEATURED VIDEO Section -->
+<div class="w3-content w3-container w3-padding-64" id="featured">
+  <h3 class="w3-center">FEATURED VIDEO</h3>
+  <!-- <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p> --> <br>
+  <iframe class="w3-col m3" width="1200" height="700" src="https://www.youtube.com/embed/lrmR8TIVkcc" frameborder="0" allowfullscreen></iframe>
+
+  
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <!-- <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains"> -->
+      <!-- <iframe src="https://www.youtube.com/embed/lrmR8TIVkcc" frameborder="0" allowfullscreen></iframe> -->
+    </div>
+  </div>
+</div>
+
+
+
+<!-- BIOGRAPHY Section Image -->
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+  </div>
+</div>
+
+
+<!-- BIOGRAPHY Section -->
+<div class="w3-content w3-container w3-padding-64" id="biography">
+  <h3 class="w3-center">BIOGRAPHY</h3> 
+  <p>24-year-old violinist, Rachel Ostler, has been recognized for her artistic interpretation, exuberant energy, and lyrical tone. She is the first prize winner of the Aspen Concerto Competition, American Youth Symphony Competition, the Culver City Young Artist Competition, and the Rio Hondo Competition, as well as a semi-finalist in the Schoenfeld International String Competition.</p>
+	<p>Rachel made her solo debut at age 12, performing the Vieuxtemps Violin Concerto No. 5 with the Coral Gables Orchestra as a special guest in the WLRN television series <em>American Ideal</em>. Since then, she has performed as a soloist with orchestras including the Aspen Conducting Academy Orchestra at the Aspen Music Festival, Rio Hondo Symphony, Utah Philharmonic, Brigham Young University Philharmonic and Chamber Orchestra, Ludwig Symphony Orchestra, and Alhambra Orchestra.</p> 
+	<p>As a young violinist, Rachel won prizes in numerous competitions including the Hollywood Young Artist, Collin County, Hubbard Young Artist, Lewisville and Ray Millette Competitions. After winning the junior division of the American String Teachers Association Competition, she was invited to perform the Beethoven Violin Concerto with the inaugural Classical Virtuosi of Miami festival, and toured China the following year with the Brigham Young University Chamber Orchestra, performing in major concert halls in Beijing, Shanghai, Tianjin, Hangzhou, and Guangzhou.</p>
+	<p>Rachel has performed in masterclasses for internationally renowned violinists including Gil Shaham, Pinchas Zukerman, Joseph Silverstein, Pamela Frank, Anne Akiko-Meyers, and Baiba Skride. An avid chamber musician, she has had the privilege of collaborating with notable artists including Augustin Hadelich, James Dunham, and Charles Weatherbee. Rachel has been a fellow at the Aspen Music Festival and School, and has attended the Lucerne Festival Academy, the Sarasota Music Festival, and the European American Musical Alliance.</p>
+	<p>Born in Austin, Texas and raised in Miami, Florida, Rachel began violin lessons at age two and a half. Her early training saw a variety of teachers including Sachiko Mori and Thomas Moore. At age 16, she began attending Brigham Young University, studying with Monte Belknap and minoring in English Literature.</p>
+	<p>Rachel has recently received her Master of Music degree from the Colburn Conservatory, where she studied under Robert Lipsett, the Jascha Heifetz Distinguished Violin Chair. 
+	In Fall 2016, Rachel began postgraduate studies at Yale, studying with Ani Kavafian.</p>
+  
+
+  <div class="w3-row"></div>	
+</div>
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (CURRENT PROJECTS Section) -->
+<div class="w3-content w3-container w3-padding-64" id="projects">
+  <h3 class="w3-center">CURRENT PROJECTS</h3>
+  
+  <!-- Current Projects Placeholder-->
+  <span style="text-align: center; display: block">COMING SOON!</span>
+
+  <div class="w3-row w3-padding-32 w3-section">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/rachel.ostler.16" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/rachel.lost.her.rabbit/?hl=en" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.youtube.com/user/Quintessentialsophie" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+  </div>
+</footer>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+</body>
+</html>
+
