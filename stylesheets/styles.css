@@ -247,7 +247,7 @@ h3 {font-size: 25px;}
 p {font-size: 16px;}
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -263,14 +263,26 @@ p {font-size: 16px;}
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url("../images/background/IMG_0416.JPG");
-    min-height: 400px;
+    min-height: 700px;
+}
+/* Second image (Portfolio) */
+.bgimg-3 {
+    background-image: url("../images/background/disney_hall_2.jpg");
+    /*background-image: url("../images/background/IMG_0416.JPG");*/
+    min-height: 700px;
 }
 
 /* Third image (Contact) */
-.bgimg-3 {
+.bgimg-4 {
+    /*background-image: url("../images/background/IMG_0065.JPG");*/
+    background-image: url("../images/background/PARALLAX_IMG_0405.JPG");
+    min-height: 700px;
+}
+/* Third image (Contact) */
+.bgimg-5 {
     background-image: url("../images/background/IMG_0065.JPG");
-    /*background-image: url("./images/gallery13.JPG");*/
-    min-height: 400px;
+    /*background-image: url("../images/background/PARALLAX_IMG_0405.JPG");*/
+    min-height: 700px;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -278,7 +290,7 @@ p {font-size: 16px;}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
 }
