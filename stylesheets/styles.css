@@ -256,7 +256,8 @@ p {font-size: 16px;}
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('../images/background/rachel_main.jpg');
+    /*background-image: url('../images/background/rachel_main.jpg');*/
+    background-image: url('../images/background/racheledit.jpg');
     min-height: 100%;
 }
 
@@ -280,7 +281,8 @@ p {font-size: 16px;}
 }
 /* Third image (Contact) */
 .bgimg-5 {
-    background-image: url("../images/background/IMG_0065.JPG");
+    background-image: url("../images/background/rachel_main.jpg");
+    /*background-image: url("../images/background/IMG_0065.JPG");*/
     /*background-image: url("../images/background/PARALLAX_IMG_0405.JPG");*/
     min-height: 700px;
 }
