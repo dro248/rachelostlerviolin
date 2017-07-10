@@ -259,6 +259,7 @@ p {font-size: 16px;}
     /*background-image: url('../images/background/rachel_main.jpg');*/
     background-image: url('../images/background/racheledit.jpg');
     min-height: 100%;
+    background-position: right top;
 }
 
 /* Second image (Portfolio) */
