@@ -5,55 +5,73 @@
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" type="image/jpg" href="./images/favicon.jpg"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="stylesheets/styles.css">
+
+  <!-- JQuery -->
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#projects" class="w3-bar-item w3-button w3-hide-small">CURRENT PROJECTS</a>
-    <a href="#biography" class="w3-bar-item w3-button w3-hide-small">BIOGRAPHY</a>
-    <a href="#featured" class="w3-bar-item w3-button w3-hide-small">FEATURED VIDEO</a>
-    <a href="#gallery" class="w3-bar-item w3-button w3-hide-small">GALLERY</a>
-    <a href="#calendar" class="w3-bar-item w3-button w3-hide-small">CONCERTS</a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a> -->
+<!-- <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Rachel Ostler</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#calendar">Concerts</a></li>
+      <li><a href="#featured">Featured Video</a></li>
+      <li><a href="#biography">Biography</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#projects">Current Projects</a></li>
+    </ul>
   </div>
+</nav> -->
 
-  <!-- Navbar on small screens -->
-  <!-- 
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#calendar" class="w3-bar-item w3-button" onclick="toggleFunction()">CALENDAR</a>
-    <a href="#biography" class="w3-bar-item w3-button" onclick="toggleFunction()">BIOGRAPHY</a>
-    <a href="#featured" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">CURRENT PROJECTS</a>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Rachel Ostler</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#calendar">Concerts</a></li>
+        <li><a href="#featured">Featured Video</a></li>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#projects">Current Projects</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Social Media</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Icons</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Go</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Here!</a></li>
+      </ul>
+    </div>
   </div>
-   -->
-</div>
-
-
-
+</nav>
 
 
 <!-- TOP Image -->
@@ -180,21 +198,21 @@
 	<!-- Gallery goes here -->
 	<!-- <div id="links"> -->
 	<div class="row">
-	    <a href="images/disney_hall_1.jpg"><img src="images/gallery/disney_hall_1.jpg" alt="headshot1" class="gallery"></a>
+	    <!-- <a href="images/disney_hall_1.jpg"><img src="images/gallery/disney_hall_1.jpg" alt="headshot1" class="gallery"></a> -->
 		<a href="images/disney_hall_2.jpg"><img src="images/gallery/disney_hall_2.jpg" alt="headshot2" class="gallery"></a>
-		<a href="images/gallery1.JPG"><img src="images/gallery/gallery1.JPG" alt="headshot3" class="gallery"></a>
-		<a href="images/gallery2.JPG"><img src="images/gallery/gallery2.JPG" alt="headshot3" class="gallery"></a>
-		<a href="images/gallery3.JPG"><img src="images/gallery/gallery3.JPG" alt="headshot3" class="gallery"></a>
-		<a href="images/gallery4.JPG"><img src="images/gallery/gallery4.JPG" alt="headshot3" class="gallery"></a>
-		<a href="images/gallery5.JPG"><img src="images/gallery/gallery5.JPG" alt="headshot3" class="gallery"></a>
-		<a href="images/gallery6.JPG"><img src="images/gallery/gallery6.JPG" alt="headshot3" class="gallery"></a>
-		<a href="images/gallery7.JPG"><img src="images/gallery/gallery7.JPG" alt="headshot3" class="gallery"></a>
+		<!-- <a href="images/gallery1.JPG"><img src="images/gallery/gallery1.JPG" alt="headshot3" class="gallery"></a> -->
+		<!-- <a href="images/gallery2.JPG"><img src="images/gallery/gallery2.JPG" alt="headshot3" class="gallery"></a> -->
+		<!-- <a href="images/gallery3.JPG"><img src="images/gallery/gallery3.JPG" alt="headshot3" class="gallery"></a> -->
+		<!-- <a href="images/gallery4.JPG"><img src="images/gallery/gallery4.JPG" alt="headshot3" class="gallery"></a> -->
+		<!-- <a href="images/gallery5.JPG"><img src="images/gallery/gallery5.JPG" alt="headshot3" class="gallery"></a> -->
+		<!-- <a href="images/gallery6.JPG"><img src="images/gallery/gallery6.JPG" alt="headshot3" class="gallery"></a> -->
+		<!-- <a href="images/gallery7.JPG"><img src="images/gallery/gallery7.JPG" alt="headshot3" class="gallery"></a> -->
 		<!-- <a href="images/gallery8.JPG"><img src="images/gallery8.JPG" alt="headshot3" class="gallery"></a> -->
-		<a href="images/gallery9.JPG"><img src="images/gallery/gallery9.JPG" alt="headshot3" class="gallery"></a>
-		<a href="images/gallery10.png"><img src="images/gallery/gallery10.png" alt="headshot3" class="gallery"></a>
-		<a href="images/gallery11.png"><img src="images/gallery/gallery11.png" alt="headshot3" class="gallery"></a>
+		<!-- <a href="images/gallery9.JPG"><img src="images/gallery/gallery9.JPG" alt="headshot3" class="gallery"></a> -->
+		<!-- <a href="images/gallery10.png"><img src="images/gallery/gallery10.png" alt="headshot3" class="gallery"></a> -->
+		<!-- <a href="images/gallery11.png"><img src="images/gallery/gallery11.png" alt="headshot3" class="gallery"></a> -->
 		<!-- <a href="images/gallery12.JPG"><img src="images/gallery12.JPG" alt="headshot3" class="gallery"></a> -->
-		<a href="images/gallery13.JPG"><img src="images/gallery/gallery13.JPG" alt="headshot3" class="gallery"></a>
+		<!-- <a href="images/gallery13.JPG"><img src="images/gallery/gallery13.JPG" alt="headshot3" class="gallery"></a> -->
 
 
 	</div>
