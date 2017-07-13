@@ -1,5 +1,4 @@
-/*h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; color: #3F72AF;}*/
-h1,h2,h3,h4,h5,h6 {font-family: Times, sans-serif; color: #3F72AF;letter-spacing: 5px}
+h1,h2,h3,h4,h5,h6 {font-family: 'Raleway', sans-serif; color: #36454F;letter-spacing: 5px}
 body, html {
     height: 100%;
     color: #555;
@@ -29,11 +28,12 @@ p {font-size: 16px;}
 .bgimg-2 {
     background-image: url("../images/background/IMG_0416.JPG");
     min-height: 700px;
+    background-position-y: 100px;
 }
 /* Second image (Portfolio) */
 .bgimg-3 {
     background-image: url("../images/background/disney_hall_2.jpg");
-    /*background-image: url("../images/background/IMG_0416.JPG");*/
+    background-position-x: 30%; 
     min-height: 700px;
 }
 
@@ -70,28 +70,39 @@ p {font-size: 16px;}
 
 
 .event{
-    /*box-shadow: 0 1px 4px grey;*/
     padding: 1em 3em 1em 3em;
-    background: lightgrey;
+    background: #eee;
     margin-bottom: 1em;
+    box-shadow: 0 1px 3px grey;
     transition: background .25s;
 }
 
-.event:hover{background: #b1b0b0;}
+.event:hover{
+    /*background: #b1b0b0;*/
+    background: lightgrey;
+}
 
 .event > p {
     margin: 0px;
 }
 
 .headline, .date, .location, .piece, .details { display: block; font-size: 13px;}
-.details{
-    /*font-style: italic;*/
-    /*text-decoration: underline;*/
-}
+
+.location, .details { line-height: 15px; }
+
 .headline{
-    font-family: Times;
-    font-size: 1.5em;
-    color: #3F72AF;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 18px;
+    color: firebrick;
+    margin: 7px 0;
+}
+
+.thumbnail {
+    background-color: rgba(0,0,0,0) !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
 }
 
 .date{
@@ -101,9 +112,47 @@ p {font-size: 16px;}
 }
 
 .piece{
-    /*text-decoration: underline;*/
+    line-height: 15px;
     font-style: italic;
+    margin: 5px 0;
 }
+
+.piece:before{
+    content: "\2022   ";
+}
+
+/*Small Screens*/
+@media only screen and (max-width: 540px) {
+    .featured-video {
+        width: none;
+        min-height: none;  
+        display: block;
+        margin: auto;
+        /*visibility: hidden;*/
+    }
+    .thumbnail {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+}
+/*Big Screens*/
+@media only screen and (min-width: 541px) {
+    .featured-video {
+        width: 500px;
+        min-height: 400px;  
+        display: block;
+        margin: auto;
+    }
+    .thumbnail {
+        width: 150px;
+        height: auto;
+        float: left;
+        margin-right: 15px;
+    }
+}
+
 
 .gallery {
     display: inline;
@@ -116,13 +165,13 @@ p {font-size: 16px;}
 
 /*Navbar*/
 .navbar-brand { 
-    /*margin-left: 80px;*/
-    color: #e3432d !important; 
+    /*color: #e3432d !important; */
+    color: firebrick !important; 
     text-transform: uppercase; 
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
-.navbar-fixed-top { border-bottom: 3px solid #e3432d; }
+.navbar-fixed-top { border-bottom: 3px solid firebrick; }
 .navbar-nav li a { text-transform: uppercase; text-align: center; }
 
 .fa-facebook { color: blue; }
