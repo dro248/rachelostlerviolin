@@ -65,12 +65,20 @@ p {font-size: 16px;}
 
 
 
-.event{
-    padding: 1em 3em 1.4em;
+.event, .current_project {
     background: #eee;
     margin-bottom: 1em;
     box-shadow: 0 1px 3px grey;
     transition: background .25s;
+}
+
+.event{ 
+    padding: 1em 3em 1.4em;
+    margin-bottom: 1em;
+}
+.current_project { 
+    padding: 1em 3em 3em;
+    margin-bottom: 1.5em; 
 }
 
 .event > p {
