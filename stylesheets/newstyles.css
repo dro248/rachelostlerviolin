@@ -148,6 +148,8 @@ p {font-size: 16px;}
         display: block;
         margin: 15px auto;
      }
+     .current_project{ padding: 1em 3em 1em; }
+     .date{ text-align: center; }
 }
 /*Big Screens*/
 @media only screen and (min-width: 541px) {
@@ -169,6 +171,7 @@ p {font-size: 16px;}
         display: inline;
      }
      nav i { margin-top: -5px }
+     .current_project{ padding: 1em 3em 3em; }
 }
 
 
