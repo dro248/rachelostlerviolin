@@ -26,9 +26,11 @@ p {font-size: 16px;}
 
 /* Featured Video image */
 .bgimg-2 {
-    background-image: url("../images/background/IMG_0416_normal-compressed.jpg");
+    /*background-image: url("../images/background/IMG_0416_normal-compressed.jpg");*/
+    background-image: url("../images/background/newbackground3.jpg");
     min-height: 700px;
-    background-position-y: 100px;
+    /*background-position-y: 100px;*/
+    background-position: 50% 30%;
 }
 /* Second image (Portfolio) */
 .bgimg-3 {
@@ -62,7 +64,7 @@ p {font-size: 16px;}
 
 
 
-/*TIMELINE*/
+/*TIMELINE and Current Projects*/
 
 
 .event, .current_project {
@@ -78,7 +80,7 @@ p {font-size: 16px;}
 }
 .current_project { 
     padding: 1em 3em 3em;
-    margin-bottom: 1.5em; 
+    margin-bottom: 1.5em;
 }
 
 .event > p {
@@ -332,6 +334,20 @@ p {font-size: 16px;}
     padding: 0 100px 20px 20px;
   }
 }
+
+/*Featured Video*/
+.videolink {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.videolink a {
+  text-decoration: underline;
+  color: #b22222;
+  font-weight: bold;
+}
+
+
 
 
 /*GALLERY*/
